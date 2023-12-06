@@ -3,6 +3,9 @@
     padding: 0;
 }
 
+.navbar{
+    visibility: hidden;
+}
 /* heading css */
 .form-heading{
     margin-left: 66%;
@@ -66,7 +69,7 @@
 
 
   .progress-view{
-    margin-top: -35%;
+    margin-top: -28%;
     margin-left: 36%;
 }
 
@@ -144,7 +147,7 @@
     margin-top: 1%;
 }
 
-.trip{
+.hotel{
     margin-left: 5%;
     margin-top: -2.6%;
     color: #16A0A1;
@@ -159,129 +162,6 @@
     background-color: #16A0A1;
     height: 1px;
 }
-
-
-.circle4{
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: #16A0A1;
-    color: white;
-    text-align: center;
-    line-height: 30px;
-    font-weight: bold;
-    font-size: 70%;
-    margin-left: -0.1%;
-    margin-top: 1%;
-}
-
-.hotel{
-    margin-left: 5%;
-    margin-top: -2.6%;
-    color: #16A0A1;
-    font-weight: bold;
-}
-
-.line4{
-    width: 2%;
-    transform: rotate(90deg);
-    margin-left: 0.7%;
-    margin-top: 1.2%;
-    background-color: #16A0A1;
-    height: 1px;
-}
-
-
-.circle5{
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: #16A0A1;
-    color: white;
-    text-align: center;
-    line-height: 30px;
-    font-weight: bold;
-    font-size: 70%;
-    margin-left: -0.1%;
-    margin-top: 1%;
-}
-
-.transport{
-    margin-left: 5%;
-    margin-top: -2.6%;
-    color: #16A0A1;
-    font-weight: bold;
-}
-
-.line5{
-    width: 2%;
-    transform: rotate(90deg);
-    margin-left: 0.7%;
-    margin-top: 1.2%;
-    background-color: #16A0A1;
-    height: 1px;
-}
-
-.circle6{
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: #16A0A1;
-    color: white;
-    text-align: center;
-    line-height: 30px;
-    font-weight: bold;
-    font-size: 70%;
-    margin-left: -0.1%;
-    margin-top: 1%;
-}
-
-.activity{
-    margin-left: 5%;
-    margin-top: -2.6%;
-    color: #16A0A1;
-    font-weight: bold;
-}
-
-.line6{
-    width: 2%;
-    transform: rotate(90deg);
-    margin-left: 0.7%;
-    margin-top: 1.2%;
-    background-color: #16A0A1;
-    height: 1px;
-}
-
-.circle7{
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: #16A0A1;
-    color: white;
-    text-align: center;
-    line-height: 30px;
-    font-weight: bold;
-    font-size: 70%;
-    margin-left: -0.1%;
-    margin-top: 1%;
-}
-
-.price{
-    margin-left: 5%;
-    margin-top: -2.6%;
-    color: #16A0A1;
-    font-weight: bold;
-}
-
-.line7{
-    width: 2%;
-    transform: rotate(90deg);
-    margin-left: 0.7%;
-    margin-top: 1.2%;
-    background-color: #16A0A1;
-    height: 1px;
-}
-
 
 
 .circle8{
@@ -314,8 +194,228 @@
     height: 1px;
 }
 
+/* login box css */
+
 .login-signup-box{
-    margin-left: 60%;
+    margin-left: 80%;
     margin-top: -15%;
-    
+    /* width: 40%; */
 }
+
+.logiin{
+    /* border: 1px solid black; */
+    width: 30%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.login-text{
+    text-align: center;
+    border: 1px solid #16A0A1;
+    padding: 6px;
+    width: 186%;
+}
+
+.login-text > h2 > a {
+    text-decoration: none;
+    color: #16A0A1;
+    text-align: center;
+}
+
+.logiin > img {
+    width: 200%;
+    background-size: cover;
+}
+
+
+/* sign in box css */
+.signup-box{
+    margin-left: 60%;
+    margin-top: -18%;
+    width: 40%;
+}
+
+.signn{
+    /* border: 1px solid black; */
+    width: 30%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.sign-text{
+    text-align: center;
+    border: 1px solid #16A0A1;
+    padding: 5px;
+}
+
+.sign-text > h2 > a {
+    text-decoration: none;
+    color: #16A0A1;
+}
+
+.signn > img {
+    width: 100%;
+    background-size: cover;
+}
+
+
+
+
+@media only screen and (max-width : 600px){
+
+    .header{
+        margin-top: 10%;
+        margin-left: -100%;
+    }
+    .navbar{
+        visibility: visible;
+        background-color: black;
+        width: 100%; 
+        padding: 31px;
+        margin: 10px;
+        transition: width 0.5s;
+        background-image: url(../Form/image/Vector.png);
+        background-size: 6%;
+        background-position: 70%;
+        background-repeat: no-repeat;
+        margin-left: -10px;
+    }
+
+
+   
+    
+    .photo1-img{
+        visibility: hidden;
+    }
+
+    .photo-heading{
+        margin-top: -132%;
+        color: white;
+        width: 20%;
+    }
+
+    .travel-icon {
+        visibility: hidden;
+    }
+ 
+    .Travel-therapy{
+        visibility: hidden;
+    }
+
+    .travelworld{
+        visibility: hidden;
+    }
+
+    .Journey-everywhere{
+        visibility: hidden;
+    }
+
+    .circle1{
+        margin-left: -50%;
+        margin-top: 20%;
+    }
+
+    .line1{
+        margin-left: -43%;
+        transform: rotate(180deg);
+        margin-top: 6%;
+        padding: 1px;
+        width: 20%;
+
+    }
+
+    .login{
+        margin-top: -15%;
+        margin-left: -53%;
+        font-size: 85%;
+    }
+
+    .circle2{
+        margin-top: -4%;
+        margin-left: -23%;
+    }
+
+    .Info{
+        margin-left: -25%;
+        margin-top: -15%;
+    }
+
+    .line2{
+        transform: rotate(180deg);
+        padding: 1px;
+        width: 20%;
+        margin-left: -15%;
+        margin-top: 6%;
+    }
+
+    .circle3{
+        margin-top: -4%;
+        margin-left: 10%;
+    }
+    
+    .line3{
+        transform: rotate(180deg);
+        padding: 1px;
+        width: 50%;
+       margin-top: 5.3%;
+    }
+
+    .hotel{
+        margin-left: -2%;
+        margin-top: -56px;
+    }
+
+    .circle8{
+        margin-left: 50%;
+        margin-top: -4%;
+    }
+
+    .review{
+        margin-left: 50%;
+        margin-top: -51px;
+    }
+
+
+    .signup-box {
+        width: 200%;
+        margin-top: -170%;
+        margin-left: 10%;
+      }
+
+      .signn {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .signUp-image {
+        margin-bottom: 10px;
+      }
+
+      .sign-text {
+        margin-left: 0;
+      }
+
+      .login-signup-box {
+        width: 100%;
+        margin-top: 120%;
+        margin-left: 11%;
+      }
+
+      .logiin {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .login-image {
+        margin-bottom: 10px;
+      }
+
+      .login-text {
+        margin-left: 0;
+      }
+    
+
+   
+}
+
+
