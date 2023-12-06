@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* heading css */
+.form-heading{
+    margin-left: 66%;
+    margin-top: 3%;
+    color: #16A0A1;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.small-heading{
+    margin-left: 66.3%;
+    margin-top: 0.5%;
+    color: #16A0A1;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* image photo1 css*/
+.photo1-img{
+    margin-top: -10%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 460px;
+    margin-left: -1%;
+    height: 686px;
+}
+
+.photo-heading{
+    margin-top: -46%;
+    margin-left: 15px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Travel-therapy{
+    color: white;
+    font-style: italic;
+    font-size: 74%;
+    margin-left: 12%;
+    margin-top: 6%;
+}
+
+.travel-icon{
+    width: 3%;
+    margin-top: -90%;
+    margin-left: 28%;
+}
+
+.Journey-everywhere{
+    color: white;
+    margin-top: 28%;
+    margin-left: 20%;
+}
+
+.travelworld{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+/* progress view css */
+
+
+  .progress-view{
+    margin-top: -35%;
+    margin-left: 36%;
+}
+
+.circle1{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #16A0A1;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 70%;
+    margin-left: -0.1%;
+    margin-top: -39%;
+}
+
+.login{
+    margin-left: 5%;
+    margin-top: -2.6%;
+    color: #16A0A1;
+    font-weight: bold;
+}
+
+.line1{
+    width: 3%;
+    transform: rotate(90deg);
+    margin-left: 0.3%;
+    margin-top: 0.1%;
+    background-color: #16A0A1;
+    height: 1px;
+}
+
+.circle2{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #16A0A1;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 70%;
+    margin-left: -0.1%;
+    margin-top: 1.5%;
+}
+
+.Info{
+    margin-left: 5%;
+    margin-top: -2.6%;
+    color: #16A0A1;
+    font-weight: bold;
+}
+
+.line2{
+    width: 2%;
+    transform: rotate(90deg);
+    margin-left: 0.7%;
+    margin-top: 1.2%;
+    background-color: #16A0A1;
+    height: 1px;
+}
+
+.circle3{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #16A0A1;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 70%;
+    margin-left: -0.1%;
+    margin-top: 1%;
+}
+
+.trip{
+    margin-left: 5%;
+    margin-top: -2.6%;
+    color: #16A0A1;
+    font-weight: bold;
+}
+
+.line3{
+    width: 2%;
+    transform: rotate(90deg);
+    margin-left: 0.7%;
+    margin-top: 1.2%;
+    background-color: #16A0A1;
+    height: 1px;
+}
+
+
+.circle4{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #16A0A1;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 70%;
+    margin-left: -0.1%;
+    margin-top: 1%;
+}
+
+.hotel{
+    margin-left: 5%;
+    margin-top: -2.6%;
+    color: #16A0A1;
+    font-weight: bold;
+}
+
+.line4{
+    width: 2%;
+    transform: rotate(90deg);
+    margin-left: 0.7%;
+    margin-top: 1.2%;
+    background-color: #16A0A1;
+    height: 1px;
+}
+
+
+.circle5{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #16A0A1;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 70%;
+    margin-left: -0.1%;
+    margin-top: 1%;
+}
+
+.transport{
+    margin-left: 5%;
+    margin-top: -2.6%;
+    color: #16A0A1;
+    font-weight: bold;
+}
+
+.line5{
+    width: 2%;
+    transform: rotate(90deg);
+    margin-left: 0.7%;
+    margin-top: 1.2%;
+    background-color: #16A0A1;
+    height: 1px;
+}
+
+.circle6{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #16A0A1;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 70%;
+    margin-left: -0.1%;
+    margin-top: 1%;
+}
+
+.activity{
+    margin-left: 5%;
+    margin-top: -2.6%;
+    color: #16A0A1;
+    font-weight: bold;
+}
+
+.line6{
+    width: 2%;
+    transform: rotate(90deg);
+    margin-left: 0.7%;
+    margin-top: 1.2%;
+    background-color: #16A0A1;
+    height: 1px;
+}
+
+.circle7{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #16A0A1;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 70%;
+    margin-left: -0.1%;
+    margin-top: 1%;
+}
+
+.price{
+    margin-left: 5%;
+    margin-top: -2.6%;
+    color: #16A0A1;
+    font-weight: bold;
+}
+
+.line7{
+    width: 2%;
+    transform: rotate(90deg);
+    margin-left: 0.7%;
+    margin-top: 1.2%;
+    background-color: #16A0A1;
+    height: 1px;
+}
+
+
+
+.circle8{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #16A0A1;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 70%;
+    margin-left: -0.1%;
+    margin-top: 1%;
+}
+
+.review{
+    margin-left: 5%;
+    margin-top: -2.6%;
+    color: #16A0A1;
+    font-weight: bold;
+}
+
+.line8{
+    width: 2%;
+    transform: rotate(90deg);
+    margin-left: 0.7%;
+    margin-top: 1.2%;
+    background-color: #16A0A1;
+    height: 1px;
+}
+
+.login-signup-box{
+    margin-left: 60%;
+    margin-top: -15%;
+    
+}
