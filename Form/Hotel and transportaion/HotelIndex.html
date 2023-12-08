@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Planner form</title>
+    <link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua&display=swap" 
+    rel="stylesheet" />
+    <link rel="stylesheet" href="../Style.css">
+    <link rel="stylesheet" href="./Hotel.css" />
+  </head>
+  <body class="hotelandtranport">
+<!-- for small screen -->
+    <div class="navbar"></div>
+
+    <!-- heading -->
+  <div class="header">
+    <h1 class="form-heading">Registration</h1>
+    <h4 class="small-heading">Fill out the below form</h4>
+  </div>
+
+    <!-- image section -->
+    <section class="image-section">
+  <div class="photo2">
+    
+    <img src="../image/photo2.png" alt="" class="photo1-img" />
+  </div>
+      <h3 class="photo-heading">Travel Planner</h3>
+     <div class="icon">
+      <img src="../image/Vector.png" alt="" class="travel-icon" />
+     </div>
+      <p class="Travel-therapy"><strong>"TRAVEL IS MY THERAPY"</strong></p>
+      <h2 class="travelworld">Travel whole world</h2>
+      <p class="Journey-everywhere">Journy Everywhere</p>
+    </section>
+
+    <!--progess view -->
+    <section class="progress-view">
+      <div id="progress-list"></div>
+    </section>
+<!-- 
+    <button class="previousbtn">
+      <a href="../index.html"> <img src="../image/previous.png" alt=""></a>
+    </button> -->
+
+
+<div class="from-section" id="detail-submit">
+    <h1 class="form-title">Hotel , Transportation and Activities </h1>
+    <form action="../Review and submit/Review.html">
+        <label for="" class="nameT">
+            hotel
+            <!-- <input type="text" class="name-input" required> -->
+            <select name="hotels" id="">
+                <option value="">-- --</option>
+                <option value="" name="A">A hotel</option>
+                <option value="" name="B">B hotel</option>
+                <option value="" name="C">C hotel</option>
+            </select>
+        </label>
+
+
+        <label for="" class="emailT">
+            No. of Room
+            <input type="number" id="email" name="noofroom" class="email-input" required>
+        </label>
+
+        <label for=""  class="passwordT">
+            Transportation &nbsp;
+            <!-- <input type="password" id="password" class="input-password" required> -->
+            <label for="">Car</label>
+            <input type="radio" name="transportaion">
+            <label for="">Bus</label>
+            <input type="radio" name="transportaion">
+            <label for="">Aeroplane</label>
+            <input type="radio" name="transportaion">
+            <label for="">Bike</label>
+            <input type="radio" name="transportaion">
+        </label>
+
+        <label for="">
+            Activities: 
+            <br>
+            <br>
+            <label for="">
+                boating: <input type="checkbox" name="activities[]" id="">
+            </label>
+
+            <label for="">Swimming: <input type="checkbox" name="activities[]" id=""></label>
+
+            <label for="">Tracking: <input type="checkbox" name="activities[]"></label>
+
+            <label for="">Watching Movie: <input type="checkbox" name="activities[]" id=""></label>
+        </label>
+
+        <button type="submit" class="fromBtn" id="submitbtn" onclick="S">Submit</button>
+       
+      
+    </form>
+        <!-- <button id="nextBtn"><a href="./Login.html">next</a></button> -->
+</div>  
+
+
+
+<!-- <script src="../Review and submit/Review.js" ></script> -->
+
+    <script src="../Form.js"></script>
+    <script src="Login-Section.js"></script>
+  </body>
+</html>

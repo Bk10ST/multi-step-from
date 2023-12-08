@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Planner form</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Inknut+Antiqua&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../Style.css" />
+    <link rel="stylesheet" href="./Info.css" />
+  </head>
+  <body>
+    <!-- for small screen -->
+    <div class="navbar"></div>
+
+    <!-- heading -->
+    <div class="header">
+      <h1 class="form-heading">Registration</h1>
+      <h4 class="small-heading">Fill out the below form</h4>
+    </div>
+
+    <!-- image section -->
+    <section class="image-section">
+      <div class="photo2">
+        <img src="../image/photo2.png" alt="" class="photo1-img" />
+      </div>
+      <h3 class="photo-heading">Travel Planner</h3>
+      <div class="icon">
+        <img src="../image/Vector.png" alt="" class="travel-icon" />
+      </div>
+      <p class="Travel-therapy"><strong>"TRAVEL IS MY THERAPY"</strong></p>
+      <h2 class="travelworld">Travel whole world</h2>
+      <p class="Journey-everywhere">Journy Everywhere</p>
+    </section>
+
+    <!--progess view -->
+    <section class="progress-view">
+      <div id="progress-list"></div>
+    </section>
+
+    <!-- <div class="previousbtn">
+       <img src="../image/previous.png" alt=""><
+    </div> -->
+
+    <div class="from-section" id="detail-submit">
+      <h1 class="form-title">Detail section</h1>
+      <form action="../Hotel and transportaion/HotelIndex.html">
+        <label for="" class="nameT">
+          Name:
+          <input
+            type="text"
+            id="name"
+            name="name"
+            class="name-input"
+            required
+          />
+        </label>
+
+        <label for="" class="contactT">
+          Contact number:
+          <input
+            type="number"
+            id="number"
+            name="contact-number"
+            class="contact-input"
+            required
+          />
+        </label>
+        <label for="" class="nameT">
+          Enter your destination:
+          <input
+            type="text"
+            id="dest"
+            name="destination"
+            class="name-input"
+            required
+          />
+        </label>
+
+        <label for="" class="destinationT">
+          No of people:
+          <input
+            type="number"
+            id="peoples"
+            name="noofpeople"
+            class="contact-input"
+            required
+          />
+        </label>
+
+        <button type="submit" class="fromBtn" id="submitbtn">Submit</button>
+      </form>
+    </div>
+
+    <!-- <script src="../Review and submit/Review.js"></script> -->
+    <script src="../Form.js"></script>
+    <script src="BASIC.js"></script>
+  </body>
+</html>

@@ -1,0 +1,89 @@
+.from-section {
+    max-width: 600px;
+    /* margin: 20px auto; */
+    margin-left: 52.6%;
+    margin-top: -18%;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: white;
+  }
+  
+  .form-title {
+    /* text-align: center; */
+    margin-left: 25%;
+    color: #16A0A1;
+
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  
+  button {
+    background-color: #16A0A1;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+ 
+  .photo1-img{
+    margin-top: -10%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 460px;
+    margin-left: -1%;
+    height: 686px;
+}
+
+.circle2{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: yellow;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 70%;
+    margin-left: -0.1%;
+    margin-top: 1.5%;
+    position: relative;
+    z-index: 2;
+}
+
+.line2{
+    width: 2%;
+    transform: rotate(90deg);
+    margin-left: 0.7%;
+    margin-top: 1.2%;
+    background-color: #16A0A1;
+    height: 1px;
+    position: relative;
+    z-index: 1;
+}

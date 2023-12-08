@@ -1,0 +1,152 @@
+/* General styling for the form section */
+.from-section {
+    max-width: 600px;
+    /* margin: 20px auto; */
+    margin-left: 53%;
+    margin-top: -17%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f5f5f5;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for the form title */
+  .form-title {
+    text-align: center;
+    color: #16A0A1;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  /* Styling for labels */
+  label {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #16A0A1;
+  }
+  
+  /* Styling for select element */
+  label.nameT select {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 2px solid #3498db;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #16A0A1;
+  }
+  
+  /* Styling for number input */
+  label.emailT input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 2px solid #3498db;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #16A0A1;
+  }
+  
+  /* Styling for radio buttons */
+  label.passwordT {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+    color: #555;
+  }
+  
+  label.passwordT label {
+    margin-right: 15px;
+  }
+  
+  label.passwordT input[type="radio"] {
+    opacity: 0; /* Hide the actual radio button */
+    position: absolute;
+  }
+  
+  label.passwordT label {
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+  }
+  
+  label.passwordT label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    border: 2px solid #16A0A1;
+    background-color: #fff;
+    border-radius: 4px;
+  }
+  
+  label.passwordT input[type="radio"]:checked + label:before {
+    background-color: #16A0A1;
+    border-color: #16A0A1;
+  }
+  
+  /* Styling for checkboxes */
+  label input[type="checkbox"] {
+    display: none;
+  }
+  
+  label label {
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #16A0A1;
+  }
+  
+  label label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    border: 2px solid #16A0A1;
+    background-color: #fff;
+    border-radius: 4px;
+  }
+  
+  label input[type="checkbox"]:checked + label:before {
+    background-color: #16A0A1;
+    border-color: #16A0A1;
+  }
+  
+  /* Optional: Add a checkmark when checkbox is checked */
+  label input[type="checkbox"]:checked + label:after {
+    content: '\2713'; /* Unicode checkmark character */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 14px;
+  }
+  
+  /* Styling for submit button */
+  button {
+    background-color: #16A0A1;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .circle3{
+    background-color: yellow;
+  }

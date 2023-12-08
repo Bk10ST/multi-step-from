@@ -6,7 +6,8 @@
     <title>Travel Planner form</title>
     <link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua&display=swap" 
     rel="stylesheet" />
-    <link rel="stylesheet" href="./Style.css" />
+    <link rel="stylesheet" href="./login.css" />
+    <link rel="stylesheet" href="../Style.css">
   </head>
   <body>
 <!-- for small screen -->
@@ -22,11 +23,11 @@
     <section class="image-section">
   <div class="photo2">
     
-    <img src="../Form/image/photo2.png" alt="" class="photo1-img" />
+    <img src="../image/photo2.png" alt="" class="photo1-img" />
   </div>
       <h3 class="photo-heading">Travel Planner</h3>
      <div class="icon">
-      <img src="../Form/image/Vector.png" alt="" class="travel-icon" />
+      <img src="../image/Vector.png" alt="" class="travel-icon" />
      </div>
       <p class="Travel-therapy"><strong>"TRAVEL IS MY THERAPY"</strong></p>
       <h2 class="travelworld">Travel whole world</h2>
@@ -37,28 +38,35 @@
     <section class="progress-view">
       <div id="progress-list"></div>
     </section>
+<!-- 
+    <button class="previousbtn">
+    <a href="../index.html">   <img src="../image/previous.png" alt=""></a>
+  </button> -->
 
-    <!-- login box -->
-    <!-- <section class="login-signup-box"> -->
-        <div class="logiin">
-            <img src="../Form/image/login.jpg" alt="" class="login-image">
-           <div class="login-text">
-            <h2><a href="./Login and signup/Login.html" target="_self">Login</a></h2>
-           </div>
-        </div>
-    <!-- </section> -->
+<div class="from-section">
+    <h1 class="form-title">Welcome back</h1>
+    <form action="../BasicInfo/Info.html">
+        <label for="" class="emailT">
+            Email: 
+            <input type="email" id="email" class="email-input" required>
+        </label>
 
-     <!-- sign up box -->
-     <!-- <section class="signup-box"> -->
-      <div class="signn">
-          <img src="../Form/image/SIGN.jpg" alt="" class="signUp-image">
-         <div class="sign-text">
-          <h2><a href="../Form/Login and signup/signip.html">SignUp</a></h2>
-         </div>
-      </div>
-  <!-- </section> -->
+        <label for="" class="passwordT">
+            Password: 
+            <input type="password" id="password" class="input-password" required>
+        </label>
+
+        <button type="submit" class="fromBtn" id="submitbtn">Submit</button>
+       
+      
+    </form>
+</div>  
 
 
-    <script src="./Form.js"></script>
+
+
+
+    <script src="../Form.js"></script>
+    <script src="Login-Section.js"></script>
   </body>
 </html>

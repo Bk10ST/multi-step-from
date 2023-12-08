@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Review Page</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Inknut+Antiqua&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../Style.css" />
+    <link rel="stylesheet" href="./Review.css" />
+  </head>
+  <body>
+    <div class="navbar"></div>
+
+    <div class="header">
+      <h1 class="form-heading">Review</h1>
+      <h4 class="small-heading">Review the submitted information</h4>
+    </div>
+
+    <section class="image-section">
+      <div class="photo2">
+        <img src="../image/photo2.png" alt="" class="photo1-img" />
+      </div>
+      <h3 class="photo-heading">Travel Planner</h3>
+      <div class="icon">
+        <img src="../image/Vector.png" alt="" class="travel-icon" />
+      </div>
+      <p class="Travel-therapy"><strong>"TRAVEL IS MY THERAPY"</strong></p>
+      <h2 class="travelworld">Travel whole world</h2>
+      <p class="Journey-everywhere">Journey Everywhere</p>
+    </section>
+
+    <section class="progress-view">
+      <div id="progress-list"></div>
+    </section>
+
+    <div class="review-section">
+      <h1 class="form-title">Review hotel and transportation Information</h1>
+      <div class="review-data" id="review-data">
+     
+      </div>
+    </div>
+    <button class="Total-submit" onclick="openPopup()">Submit</button>
+
+
+    <div class="popup-container" id="popup">
+        <span class="close-btn" onclick="closePopup()">X</span>
+        <h2>Do you want to submit ? </h2>
+<div>
+  <button type="button"><a href="../Thankyou.html">Submit</a></button>
+    </div>
+    </div>
+    
+ 
+    <div class="overlay" id="overlay" onclick="closePopup()"></div>
+
+    <script src="./Review.js"></script>
+    <script src="../Form.js" ></script>
+  </body>
+</html>

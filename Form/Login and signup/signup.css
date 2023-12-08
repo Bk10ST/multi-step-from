@@ -1,0 +1,116 @@
+.nameT {
+    margin-bottom: 10px;
+    color: #16A0A1;
+    margin-left: 20px;
+}
+
+.name-input {
+    padding: 14px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #ccc;
+    width: 80%;
+}
+
+.emailT {
+    margin-bottom: 10px;
+    color: #16A0A1;
+    margin-left: 20px;
+}
+
+.passwordT {
+    margin-bottom: 10px;
+    color: #16A0A1;
+    margin-left: 20px;
+}
+
+.email-input {
+    padding: 14px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #ccc;
+    width: 80%;
+}
+
+.input-password {
+    padding: 14px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #ccc;
+    width: 80%;
+}
+
+
+
+
+.fromBtn {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #16A0A1;
+    color: white;
+    background-color: #16A0A1;
+    width: 90%;
+    margin-top: 20px;
+    border-radius: 5px;
+   
+  }
+
+  .fromBtn > a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  
+
+.form-title{
+    margin-left: 10px;
+    color: #16A0A1;
+    text-align: center;
+}
+
+.from-section {
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 60%;
+    margin-top: -15%;
+    line-height: 30px;
+}
+.circle1{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: yellow;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 70%;
+    margin-left: -0.1%;
+    margin-top: -39%;
+    position: relative;
+    z-index: 2;
+}
+
+
+
+.line1{
+    width: 3%;
+    transform: rotate(90deg);
+    margin-left: 0.3%;
+    margin-top: 0.1%;
+    background-color: #16A0A1;
+    height: 1px;
+    position: relative;
+    z-index: 1;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Planner form</title>
+    <link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua&display=swap" 
+    rel="stylesheet" />
+    <link rel="stylesheet" href="../Style.css">
+    <link rel="stylesheet" href="./signup.css" />
+  </head>
+  <body>
+<!-- for small screen -->
+    <div class="navbar"></div>
+
+    <!-- heading -->
+  <div class="header">
+    <h1 class="form-heading">Registration</h1>
+    <h4 class="small-heading">Fill out the below form</h4>
+  </div>
+
+    <!-- image section -->
+    <section class="image-section">
+  <div class="photo2">
+    
+    <img src="../image/photo2.png" alt="" class="photo1-img" />
+  </div>
+      <h3 class="photo-heading">Travel Planner</h3>
+     <div class="icon">
+      <img src="../image/Vector.png" alt="" class="travel-icon" />
+     </div>
+      <p class="Travel-therapy"><strong>"TRAVEL IS MY THERAPY"</strong></p>
+      <h2 class="travelworld">Travel whole world</h2>
+      <p class="Journey-everywhere">Journy Everywhere</p>
+    </section>
+
+    <!--progess view -->
+    <section class="progress-view">
+      <div id="progress-list"></div>
+    </section>
+<!-- 
+    <button class="previousbtn">
+      <a href="../index.html"> <img src="../image/previous.png" alt=""></a>
+    </button> -->
+
+    <!-- <button id="prevBtn"><a href="../index.html">previous</a></button> -->
+
+
+<div class="from-section">
+    <h1 class="form-title">lets enjoy world together </h1>
+    <form action="../BasicInfo/Info.html">
+        <label for="" class="nameT">
+            Username:
+            <input type="text" class="name-input" required>
+        </label>
+
+
+        <label for="" class="emailT">
+            Email: 
+            <input type="email" id="email" class="email-input" required>
+        </label>
+
+        <label for="" class="passwordT">
+            Password: 
+            <input type="password" id="password" class="input-password" required>
+        </label>
+
+        <button type="submit" class="fromBtn" id="submitbtn">Submit</button>
+       
+      
+    </form>
+        <!-- <button id="nextBtn"><a href="./Login.html">next</a></button> -->
+</div>  
+
+
+
+
+
+    <script src="../Form.js"></script>
+    <script src="Login-Section.js"></script>
+  </body>
+</html>
