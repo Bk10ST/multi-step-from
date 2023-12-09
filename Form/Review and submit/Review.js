@@ -7,10 +7,7 @@ const noofroom = urlParams.get('noofroom');
 const transportation = urlParams.get('transportation');
 const activities = urlParams.getAll('activities[]');
 
-const name = urlParams.get('name');
-const contactNumber = urlParams.get('contact-number');
-const destination = urlParams.get('destination');
-const noofpeople = urlParams.get('noofpeople');
+
 
 
 const reviewDataElement = document.getElementById('review-data');

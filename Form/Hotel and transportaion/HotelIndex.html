@@ -33,15 +33,17 @@
       <h2 class="travelworld">Travel whole world</h2>
       <p class="Journey-everywhere">Journy Everywhere</p>
     </section>
+    <div class="previoius">
+      <button class="previousbtn">
+        <a href="../BasicInfo/Info.html">   <img src="../image/previous.png" alt=""></a>
+      </button>
+    </div>
 
     <!--progess view -->
     <section class="progress-view">
       <div id="progress-list"></div>
     </section>
-<!-- 
-    <button class="previousbtn">
-      <a href="../index.html"> <img src="../image/previous.png" alt=""></a>
-    </button> -->
+
 
 
 <div class="from-section" id="detail-submit">
@@ -50,11 +52,11 @@
         <label for="" class="nameT">
             hotel
             <!-- <input type="text" class="name-input" required> -->
-            <select name="hotels" id="">
+            <select name="hotels" id="select">
                 <option value="">-- --</option>
-                <option value="" name="A">A hotel</option>
-                <option value="" name="B">B hotel</option>
-                <option value="" name="C">C hotel</option>
+                <option value="hotel A" name="hotels">A hotel</option>
+                <option value="hotel B" name="hotels">B hotel</option>
+                <option value="hotel C" name="hotels">C hotel</option>
             </select>
         </label>
 
@@ -63,45 +65,67 @@
             No. of Room
             <input type="number" id="email" name="noofroom" class="email-input" required>
         </label>
+<div class="transportation1">
+          
+<h1 class="Radio-title">Transportation</h1>
+<label class="container">Select
+  <input type="radio" checked="checked" name="transportation" >
+  <span class="checkmark"></span>
+</label>
+<label class="container">car
+  <input type="radio"  name="transportation" value="car">
+  <span class="checkmark"></span>
+</label>
+<label class="container">bus
+  <input type="radio" name="transportation" value="bus">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Bike
+  <input type="radio" name="transportation" value="bike">
+  <span class="checkmark"></span>
+</label>
+<label class="container">plain
+  <input type="radio" name="transportation" value="plain">
+  <span class="checkmark"></span>
+</label>
+</div>
 
-        <label for=""  class="passwordT">
-            Transportation &nbsp;
-            <!-- <input type="password" id="password" class="input-password" required> -->
-            <label for="">Car</label>
-            <input type="radio" name="transportaion">
-            <label for="">Bus</label>
-            <input type="radio" name="transportaion">
-            <label for="">Aeroplane</label>
-            <input type="radio" name="transportaion">
-            <label for="">Bike</label>
-            <input type="radio" name="transportaion">
+        <!-- checkbox section -->
+        <div class="activities2">
+          <h1 class="Check-title">Activities</h1>
+          <label class="container">Select
+            <input type="checkbox" checked="checked" value="" name="activities[]">
+            <span class="checkmark"></span>
+          </label>
+        <label class="container">Boating
+          <input type="checkbox" checked="checked"  name="activities[]" value="boating">
+          <span class="checkmark"></span>
         </label>
-
-        <label for="">
-            Activities: 
-            <br>
-            <br>
-            <label for="">
-                boating: <input type="checkbox" name="activities[]" id="">
-            </label>
-
-            <label for="">Swimming: <input type="checkbox" name="activities[]" id=""></label>
-
-            <label for="">Tracking: <input type="checkbox" name="activities[]"></label>
-
-            <label for="">Watching Movie: <input type="checkbox" name="activities[]" id=""></label>
+        <label class="container">Swimming
+          <input type="checkbox"  name="activities[]" value="swimming">
+          <span class="checkmark"></span>
         </label>
+        <label class="container">Tracking
+          <input type="checkbox"  name="activities[]" value="tracking">
+          <span class="checkmark"></span>
+        </label>
+        <label class="container">Cycling
+          <input type="checkbox"  name="activities[]" value="cycling">
+          <span class="checkmark"></span>
+        </label>
+        </div>
+        
 
-        <button type="submit" class="fromBtn" id="submitbtn" onclick="S">Submit</button>
+        
+
+        <button type="submit" class="fromBtn" id="submitbtn">Submit</button>
        
       
     </form>
-        <!-- <button id="nextBtn"><a href="./Login.html">next</a></button> -->
+    
 </div>  
 
 
-
-<!-- <script src="../Review and submit/Review.js" ></script> -->
 
     <script src="../Form.js"></script>
     <script src="Login-Section.js"></script>
