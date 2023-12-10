@@ -1,4 +1,4 @@
-hello , this is the project about multi step from of travel planner  . travel plannner helps you to paln your destination my taking input from tthe user in multi stages .
+hello , this is the project about multi step from of travel planner  . travel plannner helps you to plan your destination my taking input from tthe user in multi stages .
 first stage you have to login or Sign in.
 second stage you have to give your name , number , trip details etc
 third stage you have to provide hotel and transporation details along with activities that you want to do in trip
